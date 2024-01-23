@@ -1,0 +1,108 @@
+{
+    // Theme
+    "symbols.hidesExplorerArrows": true,
+    // Window
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "native",
+    // Workbench
+    "workbench.colorTheme": "Min Dark",
+    "workbench.iconTheme": "symbols",
+    "workbench.startupEditor": "newUntitledFile", // [none]
+    "workbench.editor.labelFormat": "short",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "workbench.tree.indent": 16,
+    "breadcrumbs.enabled": false,
+    // Terminal
+    "terminal.integrated.fontSize": 12, // ? 14
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    // Editor
+    "editor.tabSize": 4,
+    "editor.fontSize": 11, // ? 14
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.lineHeight": 22, // ? 1.8
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    "editor.rulers": [
+        120,
+        160
+    ], // ? [80, 120]
+    "editor.suggestSelection": "first",
+    "editor.renderLineHighlight": "none",
+    "editor.renderWhitespace": "none",
+    "editor.fontLigatures": true,
+    "editor.linkedEditing": true,
+    "git.mergeEditor": true,
+    // Files
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/__init__.py": false,
+        "**/package-lock.json": true,
+        "**/node_modules": true,
+        "**/.next": true,
+        "**/next-env.d.ts": true,
+        "Cargo.lock": true,
+        "bin": true,
+        "obj": true
+    },
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    // Explorer
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.decorations.badges": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "Cargo.toml": "Cargo.lock"
+    },
+    // Javascript && Typescript
+    "javascript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // ! Extensions
+    "extensions.ignoreRecommendations": true,
+    // Material icons
+    "material-icon-theme.activeIconPack": "nest",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "material-icon-theme.folders.associations": {
+        "entities": "class",
+        "use-cases": "functions",
+        "migrations": "tools",
+        "useCases": "functions",
+        "eslint-config": "tools",
+        "modules": "components",
+        "infra": "app",
+        "factories": "class",
+        "repositories": "mappings",
+        "sqlite": "database",
+        "in-memory": "database",
+        "endpoints": "api",
+        "venv": "target"
+    },
+    // Rust
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    // Java
+    "redhat.telemetry.enabled": false,
+    // Prettier
+    "prettier.semi": true,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": false,
+    // Codesnap
+    "codesnap.transparentBackground": true,
+    "codesnap.showLineNumbers": false,
+    "codesnap.showWindowControls": false,
+    // Others
+    "indentRainbow.indicatorStyle": "light"
+}

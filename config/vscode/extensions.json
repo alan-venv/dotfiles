@@ -1,0 +1,14 @@
+{
+    "extensions": [
+        "Better Comments",
+        "Codesnap",
+        "Error Lens",
+        "Even Better TOML",
+        "indent-rainbow",
+        "Min Theme",
+        "Path Intellisense",
+        "rust-analyzer",
+        "Symbols",
+        "YAML"
+    ]
+}
