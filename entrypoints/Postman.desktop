@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=/opt/postman/app/Postman
+Name=Postman
+Type=Application
+Icon=/opt/postman/app/icons/icon_128x128.png

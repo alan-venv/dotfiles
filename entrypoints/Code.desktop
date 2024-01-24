@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=/opt/code/bin/code
+Name=Code
+Type=Application
+Icon=/opt/code/resources/app/resources/linux/code.png

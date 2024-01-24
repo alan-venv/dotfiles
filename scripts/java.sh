@@ -47,3 +47,18 @@ GRADLE_HOME=\"/opt/gradle\"
 PATH=\"\$PATH:\$JAVA_HOME/bin:\$MAVEN_HOME/bin:\$GRADLE_HOME/bin\"
 " >> ~/.bashrc
 
+# Entrypoints
+echo "[Desktop Entry]
+Name=Camunda
+Type=Application
+Exec=/opt/camunda-modeler/camunda-modeler
+Icon=/opt/camunda-modeler/support/icon_128.png" > ~/.local/share/applications/Camunda.desktop
+chmod +x ~/.local/share/applications/Camunda.desktop
+
+echo "[Desktop Entry]
+Name=IntelliJ
+Type=Application
+Exec=/opt/intellij/bin/idea.sh
+Icon=/opt/intellij/bin/idea.png" > ~/.local/share/applications/IntelliJ.desktop
+chmod +x ~/.local/share/applications/IntelliJ.desktop
+

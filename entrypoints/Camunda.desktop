@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=/opt/camunda-modeler/camunda-modeler
+Name=Camunda
+Type=Application
+Icon=/opt/camunda-modeler/support/icon_128.png
