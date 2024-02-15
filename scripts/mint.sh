@@ -13,7 +13,7 @@ sudo apt install build-essential libssl-dev
 # Flatpak
 flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub org.keepassxc.KeePassXC
-flatpak install -y flathub com.getpostman.Postman
+#flatpak install -y flathub com.getpostman.Postman
 flatpak install -y flathub com.vivaldi.Vivaldi
 
 # Shortcuts
