@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Enthuware
+Type=Application
+Exec=env GTK_THEME=adwaita:light /opt/graalvm-21/bin/java -jar /home/user/Documents/personal/enthuware/etsviewer.jar
+Icon=/home/user/Documents/personal/enthuware/icon.png
