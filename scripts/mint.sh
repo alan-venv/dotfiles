@@ -1,10 +1,11 @@
 #!/bin/bash
 
-# Purge some shits
-#sudo apt purge libreoffice*
-#sudo rm -r /etc/libreoffice/
+# PURGE SOME SHITS
+sudo apt purge libreoffice*
+sudo rm -r /etc/libreoffice/
 sudo apt purge firefox
 sudo apt purge java*
+sudo apt purge speech-dispatcher
 
 # Packages
 sudo apt install vim git curl ccrypt
@@ -15,6 +16,8 @@ flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub org.keepassxc.KeePassXC
 #flatpak install -y flathub com.getpostman.Postman
 flatpak install -y flathub com.vivaldi.Vivaldi
+flatpak install -y flathub org.onlyoffice.desktopeditors
+flatpak install -y flathub org.kde.okular
 
 # Shortcuts
 # - Switch to workspace (ALT + NUM)
