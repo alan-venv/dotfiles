@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir ~/.local/share/applications
+
 # JDK 21 (latest)
 curl -fsOL https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_linux-x64_bin.tar.gz
 tar -xzf graalvm-jdk-21_linux-x64_bin.tar.gz
@@ -25,9 +27,9 @@ rm gradle-8.6-bin.zip
 sudo mv gradle-8.6 /opt/gradle
 
 # INTELLIJ IDEA COMUNITY (2023.3.4)
-curl -fsOL https://download.jetbrains.com/idea/ideaIC-2023.3.4.tar.gz
-tar -xzf ideaIC-2023.3.4.tar.gz
-rm ideaIC-2023.3.4.tar.gz
+curl -fsOL https://download.jetbrains.com/idea/ideaIC-2023.3.5.tar.gz
+tar -xzf ideaIC-2023.3.5.tar.gz
+rm ideaIC-2023.3.5.tar.gz
 sudo mv idea-* /opt/intellij
 
 # PATH
@@ -44,6 +46,7 @@ echo "[Desktop Entry]
 Name=IntelliJ
 Type=Application
 Exec=/opt/intellij/bin/idea.sh
-Icon=/opt/intellij/bin/idea.png" > ~/.local/share/applications/IntelliJ.desktop
+Icon=/opt/intellij/bin/idea.png
+Categories=Development;" > ~/.local/share/applications/IntelliJ.desktop
 chmod +x ~/.local/share/applications/IntelliJ.desktop
 

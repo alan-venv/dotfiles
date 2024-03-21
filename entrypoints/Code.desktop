@@ -1,5 +1,6 @@
 [Desktop Entry]
-Exec=/opt/code/bin/code
 Name=Code
 Type=Application
+Exec=/opt/code/bin/code
 Icon=/opt/code/resources/app/resources/linux/code.png
+Categories=Development;
