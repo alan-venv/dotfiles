@@ -2,11 +2,11 @@
 
 mkdir ~/.local/share/applications
 
-# JDK 21 (latest)
-curl -fsOL https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_linux-x64_bin.tar.gz
-tar -xzf graalvm-jdk-21_linux-x64_bin.tar.gz
-rm graalvm-jdk-21_linux-x64_bin.tar.gz
-sudo mv graalvm-jdk-21* /opt/graalvm-21
+# JDK 22 (latest)
+curl -fsOL https://download.oracle.com/graalvm/22/latest/graalvm-jdk-22_linux-x64_bin.tar.gz
+tar -xzf graalvm-jdk-22_linux-x64_bin.tar.gz
+rm graalvm-jdk-22_linux-x64_bin.tar.gz
+sudo mv graalvm-jdk-22* /opt/graalvm-22
 
 # JDK 17 (latest)
 curl -fsOL https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_linux-x64_bin.tar.gz
@@ -35,7 +35,7 @@ sudo mv idea-* /opt/intellij
 # PATH
 echo "
 # Java
-JAVA_HOME=\"/opt/graalvm-21\"
+JAVA_HOME=\"/opt/graalvm-22\"
 MAVEN_HOME=\"/opt/maven\"
 GRADLE_HOME=\"/opt/gradle\"
 PATH=\"\$PATH:\$JAVA_HOME/bin:\$MAVEN_HOME/bin:\$GRADLE_HOME/bin\"
