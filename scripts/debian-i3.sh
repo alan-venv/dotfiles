@@ -1,5 +1,5 @@
 #!/bin/bash
- 
+
 # v1
 
 # Install desktop environment
@@ -18,7 +18,7 @@ sudo apt install lxappearance feh arc-theme
 sudo apt install curl vim git ufw htop
 
 # Install appimages dependences
-sudo apt install fuse libfuse2 
+sudo apt install fuse libfuse2
 
 # Install others shits
 sudo apt install cmatrix neofetch cava figlet
