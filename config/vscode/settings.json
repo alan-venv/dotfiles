@@ -1,19 +1,16 @@
 {
-    // Theme
-    "symbols.hidesExplorerArrows": true,
-    // Window
-    "window.zoomLevel": 0,
-    "window.menuBarVisibility": "toggle",
-    "window.titleBarStyle": "native",
     // Workbench
-    "workbench.colorTheme": "Min Dark",
+    "workbench.colorTheme": "GitHub Dark",
     "workbench.iconTheme": "symbols",
     "workbench.startupEditor": "newUntitledFile", // [none]
-    "workbench.editor.labelFormat": "short",
-    "workbench.activityBar.location": "hidden",
     "workbench.statusBar.visible": false,
+    "workbench.editor.labelFormat": "short",
     "workbench.tree.indent": 16,
+    "workbench.activityBar.location": "hidden",
     "breadcrumbs.enabled": false,
+    // Window
+    "window.menuBarVisibility": "toggle",
+    "window.customTitleBarVisibility": "never",
     // Terminal
     "terminal.integrated.fontSize": 12, // ? 14
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
@@ -38,7 +35,6 @@
     "editor.renderWhitespace": "none",
     "editor.fontLigatures": true,
     "editor.linkedEditing": true,
-    "git.mergeEditor": true,
     // Files
     "files.exclude": {
         "**/__pycache__": true,
@@ -48,6 +44,9 @@
         "**/node_modules": true,
         "**/.next": true,
         "**/next-env.d.ts": true,
+        "tsconfig.json": true,
+        "postcss.config.js": true,
+        "next.config.mjs": true,
         "Cargo.lock": true,
         "bin": true,
         "obj": true
@@ -104,5 +103,6 @@
     "codesnap.showLineNumbers": false,
     "codesnap.showWindowControls": false,
     // Others
-    "indentRainbow.indicatorStyle": "light"
+    "git.mergeEditor": true,
+    "symbols.hidesExplorerArrows": true,
 }
