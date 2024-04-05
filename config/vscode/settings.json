@@ -13,7 +13,8 @@
     "window.customTitleBarVisibility": "never",
     // Terminal
     "terminal.integrated.fontSize": 12, // ? 14
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.cursorStyle": "line",
     // Editor
     "editor.tabSize": 4,
     "editor.fontSize": 11, // ? 14
@@ -69,40 +70,21 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     // ! Extensions
     "extensions.ignoreRecommendations": true,
-    // Material icons
-    "material-icon-theme.activeIconPack": "nest",
-    "material-icon-theme.hidesExplorerArrows": true,
-    "material-icon-theme.folders.associations": {
-        "entities": "class",
-        "use-cases": "functions",
-        "migrations": "tools",
-        "useCases": "functions",
-        "eslint-config": "tools",
-        "modules": "components",
-        "infra": "app",
-        "factories": "class",
-        "repositories": "mappings",
-        "sqlite": "database",
-        "in-memory": "database",
-        "endpoints": "api",
-        "venv": "target"
-    },
     // Rust
     "rust-analyzer.inlayHints.parameterHints.enable": false,
     "rust-analyzer.inlayHints.typeHints.enable": false,
     "rust-analyzer.inlayHints.chainingHints.enable": false,
     "rust-analyzer.inlayHints.closingBraceHints.enable": false,
-    // Java
-    "redhat.telemetry.enabled": false,
     // Prettier
     "prettier.semi": true,
-    "prettier.tabWidth": 4,
+    "prettier.tabWidth": 2,
     "prettier.singleQuote": false,
     // Codesnap
     "codesnap.transparentBackground": true,
     "codesnap.showLineNumbers": false,
     "codesnap.showWindowControls": false,
+    // Symbols
+    "symbols.hidesExplorerArrows": true,
     // Others
     "git.mergeEditor": true,
-    "symbols.hidesExplorerArrows": true,
 }
