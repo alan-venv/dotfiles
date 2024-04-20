@@ -8,7 +8,13 @@ tar -xzf graalvm-jdk-22_linux-x64_bin.tar.gz
 rm graalvm-jdk-22_linux-x64_bin.tar.gz
 sudo mv graalvm-jdk-22* /opt/graalvm-22
 
-# JDK 17 (latest)
+# JDK 21
+curl -fsOL https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_linux-x64_bin.tar.gz
+tar -xzf graalvm-jdk-21_linux-x64_bin.tar.gz
+rm graalvm-jdk-21_linux-x64_bin.tar.gz
+sudo mv graalvm-jdk-21* /opt/graalvm-21
+
+# JDK 17
 curl -fsOL https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_linux-x64_bin.tar.gz
 tar -xzf graalvm-jdk-17_linux-x64_bin.tar.gz
 rm graalvm-jdk-17_linux-x64_bin.tar.gz
@@ -20,16 +26,16 @@ tar -xzf apache-maven-3.9.6-bin.tar.gz
 rm apache-maven-3.9.6-bin.tar.gz
 sudo mv apache-maven-3.9.6 /opt/maven
 
-# GRADLE (8.6)
-curl -fsOL https://services.gradle.org/distributions/gradle-8.6-bin.zip
-unzip gradle-8.6-bin.zip >> /dev/null 2>&1
-rm gradle-8.6-bin.zip
-sudo mv gradle-8.6 /opt/gradle
+# GRADLE (8.7)
+curl -fsOL https://services.gradle.org/distributions/gradle-8.7-bin.zip
+unzip gradle-8.7-bin.zip >> /dev/null 2>&1
+rm gradle-8.7-bin.zip
+sudo mv gradle-8.7 /opt/gradle
 
-# INTELLIJ IDEA COMUNITY (2023.3.4)
-curl -fsOL https://download.jetbrains.com/idea/ideaIC-2023.3.5.tar.gz
-tar -xzf ideaIC-2023.3.5.tar.gz
-rm ideaIC-2023.3.5.tar.gz
+# INTELLIJ IDEA COMUNITY (2024.1)
+curl -fsOL https://download.jetbrains.com/idea/ideaIC-2024.1.tar.gz
+tar -xzf ideaIC-2024.1.tar.gz
+rm ideaIC-2024.1.tar.gz
 sudo mv idea-* /opt/intellij
 
 # PATH
