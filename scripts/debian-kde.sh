@@ -19,6 +19,7 @@ sudo apt purge -y kfind
 sudo apt purge -y sweeper
 sudo apt purge -y kmag
 sudo apt purge -y kmousetool
+sudo apt purge -y kate
 
 sudo apt autoremove -y
 
