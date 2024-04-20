@@ -24,9 +24,10 @@ sudo apt purge -y kate
 sudo apt autoremove -y
 
 # Programs
-sudo apt install -y vim git curl ccrypt unzip
+sudo apt install -y vim git curl ccrypt unzip ufw
 sudo apt install -y keepassxc flameshot podman
 # sudo apt install build-essential libssl-dev
+sudo ufw enable
 
 
 # Git
