@@ -1,6 +1,7 @@
 #!/bin/bash
 
-mkdir ~/.local/share/applications
+mkdir ~/.local/share/applications >> /dev/null 2>&1
+sudo mkdir /opt >> /dev/null 2>&1
 
 # JDK 22 (latest)
 curl -fsOL https://download.oracle.com/graalvm/22/latest/graalvm-jdk-22_linux-x64_bin.tar.gz
@@ -55,4 +56,3 @@ Exec=/opt/intellij/bin/idea.sh
 Icon=/opt/intellij/bin/idea.png
 Categories=Development;" > ~/.local/share/applications/IntelliJ.desktop
 chmod +x ~/.local/share/applications/IntelliJ.desktop
-
