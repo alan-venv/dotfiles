@@ -24,9 +24,9 @@ sudo apt purge -y kate
 sudo apt autoremove -y
 
 # Packages
-sudo apt install -y vim git curl ccrypt unzip ufw
+sudo apt install -y vim git curl ccrypt unzip ufw htop
 sudo apt install -y build-essential libssl-dev
-sudo apt install -y flatpak keepassxc flameshot podman
+sudo apt install -y flatpak flameshot podman
 
 # Flatpaks
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
@@ -34,12 +34,11 @@ flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub io.github.ungoogled_software.ungoogled_chromium
 flatpak install -y flathub org.keepassxc.KeePassXC
 
+flatpak permission-set background background org.mozilla.firefox yes
+flatpak permission-set background background flathub io.github.ungoogled_software.ungoogled_chromium yes
+
 # UFW
 sudo ufw enable
 
 # Git
 git config --global credential.helper store
-
-
-
-# vc code and vivaldi by .deb package from website
