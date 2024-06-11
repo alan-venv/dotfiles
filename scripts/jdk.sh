@@ -21,22 +21,22 @@ tar -xzf graalvm-jdk-17_linux-x64_bin.tar.gz
 rm graalvm-jdk-17_linux-x64_bin.tar.gz
 sudo mv graalvm-jdk-17* /opt/graalvm-17
 
-# MAVEN (3.9.6)
-curl -fsOL https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
-tar -xzf apache-maven-3.9.6-bin.tar.gz
-rm apache-maven-3.9.6-bin.tar.gz
-sudo mv apache-maven-3.9.6 /opt/maven
+# MAVEN (3.9.7)
+curl -fsOL https://dlcdn.apache.org/maven/maven-3/3.9.7/binaries/apache-maven-3.9.7-bin.tar.gz
+tar -xzf apache-maven-3.9.7-bin.tar.gz
+rm apache-maven-3.9.7-bin.tar.gz
+sudo mv apache-maven-3.9.7 /opt/maven
 
-# GRADLE (8.7)
-curl -fsOL https://services.gradle.org/distributions/gradle-8.7-bin.zip
-unzip gradle-8.7-bin.zip >> /dev/null 2>&1
-rm gradle-8.7-bin.zip
-sudo mv gradle-8.7 /opt/gradle
+# GRADLE (8.8)
+curl -fsOL https://services.gradle.org/distributions/gradle-8.8-bin.zip
+unzip gradle-8.8-bin.zip >> /dev/null 2>&1
+rm gradle-8.8-bin.zip
+sudo mv gradle-8.8 /opt/gradle
 
-# INTELLIJ IDEA COMUNITY (2024.1)
-curl -fsOL https://download.jetbrains.com/idea/ideaIC-2024.1.tar.gz
-tar -xzf ideaIC-2024.1.tar.gz
-rm ideaIC-2024.1.tar.gz
+# INTELLIJ IDEA COMUNITY (2024.1.3)
+curl -fsOL https://download.jetbrains.com/idea/ideaIC-2024.1.3.tar.gz
+tar -xzf ideaIC-2024.1.3.tar.gz
+rm ideaIC-2024.1.3.tar.gz
 sudo mv idea-* /opt/intellij
 
 # PATH
