@@ -16,6 +16,7 @@ sudo apt install -y flameshot
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install -y flathub org.mozilla.firefox
 flatpak install -y flathub org.keepassxc.KeePassXC
+flatpak install -y flathub com.obsproject.Studio
 flatpak install -y flathub com.brave.Browser
 
 # CONFIGS
