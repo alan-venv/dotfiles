@@ -1,24 +1,25 @@
 {
-    // Workbench
-    "workbench.colorTheme": "GitHub Dark",
-    "workbench.iconTheme": "symbols",
-    "workbench.startupEditor": "newUntitledFile", // [none]
-    "workbench.statusBar.visible": false,
-    "workbench.editor.labelFormat": "short",
-    "workbench.tree.indent": 16,
-    "workbench.activityBar.location": "hidden",
+    "git.mergeEditor": true,
     "breadcrumbs.enabled": false,
-    // Window
+    // window
     "window.menuBarVisibility": "toggle",
     "window.customTitleBarVisibility": "never",
-    // Terminal
+    // workbench
+    "workbench.iconTheme": "symbols",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "workbench.tree.indent": 16,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
+    // terminal
     "terminal.integrated.fontSize": 12, // ? 14
-    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "Fira Code",
     "terminal.integrated.cursorStyle": "line",
-    // Editor
-    "editor.tabSize": 4,
-    "editor.fontSize": 11, // ? 14
-    "editor.fontFamily": "JetBrains Mono",
+    // editor
+    "editor.tabSize": 2,
+    "editor.fontSize": 11, // ? 14 ==
+    "editor.fontFamily": "Fira Code",
     "editor.lineHeight": 22, // ? 1.8
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
@@ -36,27 +37,31 @@
     "editor.renderWhitespace": "none",
     "editor.fontLigatures": true,
     "editor.linkedEditing": true,
-    // Files
+    // files
+    "files.hotExit": "onExitAndWindowClose",
     "files.exclude": {
-        "**/__pycache__": true,
-        "**/.pytest_cache": true,
-        "**/__init__.py": false,
-        "**/package-lock.json": true,
-        "**/node_modules": true,
-        "**/.next": true,
-        "**/next-env.d.ts": true,
-        "tsconfig.json": true,
-        "postcss.config.js": true,
+        // javascript
+        "package-lock.json": true,
+        "node_modules": true,
+        ".next": true,
+        "next-env.d.ts": true,
         "next.config.mjs": true,
+        "tsconfig.json": true,
+        "tailwind.config.ts": true,
+        "postcss.config.js": true,
+        // rust
         "Cargo.lock": true,
         "bin": true,
-        "obj": true
+        "obj": true,
+        // others
+        ".gitignore": false,
+        ".dockerignore": false
     },
     "files.encoding": "utf8",
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    // Explorer
+    // explorer
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -65,26 +70,34 @@
     "explorer.fileNesting.patterns": {
         "Cargo.toml": "Cargo.lock"
     },
-    // Javascript && Typescript
+    // javascript and typescript
     "javascript.suggest.autoImports": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    // ! Extensions
+    // ! extensions
     "extensions.ignoreRecommendations": true,
-    // Rust
+    // rust
     "rust-analyzer.inlayHints.parameterHints.enable": false,
     "rust-analyzer.inlayHints.typeHints.enable": false,
     "rust-analyzer.inlayHints.chainingHints.enable": false,
     "rust-analyzer.inlayHints.closingBraceHints.enable": false,
-    // Prettier
+    // prettier
     "prettier.semi": true,
     "prettier.tabWidth": 2,
     "prettier.singleQuote": false,
-    // Codesnap
+    // codesnap
     "codesnap.transparentBackground": true,
     "codesnap.showLineNumbers": false,
     "codesnap.showWindowControls": false,
-    // Symbols
+    // symbols
     "symbols.hidesExplorerArrows": true,
-    // Others
-    "git.mergeEditor": true,
+    // ! others
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "vscode.markdown-language-features"
+    },
 }
