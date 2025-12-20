@@ -1,0 +1,22 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-enter": "workspace::NewTerminal",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-enter": "workspace::NewTerminal",
+      "ctrl-l": "editor::Format",
+      "ctrl-up": "editor::ConvertToUpperCase",
+      "ctrl-down": "editor::ConvertToLowerCase",
+      "alt-up": "editor::AddSelectionAbove",
+      "alt-down": "editor::AddSelectionBelow",
+      "ctrl-left": "editor::FoldFunctionBodies",
+      "ctrl-right": "editor::UnfoldAll",
+      "ctrl-w": "assistant::InlineAssist",
+    },
+  },
+]

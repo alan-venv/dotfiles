@@ -1,0 +1,13 @@
+{
+  "extensions": [
+    "Codesnap",
+    "Docker",
+    "Even Better TOML",
+    "GitHub Theme",
+    "Path Intellisense",
+    "Python",
+    "rust-analyzer",
+    "Symbols",
+    "YAML"
+  ]
+}

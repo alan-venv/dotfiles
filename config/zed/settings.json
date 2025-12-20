@@ -1,0 +1,113 @@
+{
+  // AGENT
+  "agent": {
+    "always_allow_tool_actions": true,
+    "default_profile": "write",
+    "inline_assistant_model": {
+      "provider": "openai",
+      "model": "gpt-5.2",
+    },
+    "default_model": {
+      "provider": "openai",
+      "model": "gpt-5.2",
+    },
+    "model_parameters": [],
+  },
+  // MCP
+  "context_servers": {
+    "globo-mcp": {
+      "enabled": true,
+      "command": "/opt/bin/globo-mcp",
+      "args": [],
+      "env": {},
+    },
+  },
+  // APPEARANCE
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)",
+  },
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+  "gutter": {
+    "line_numbers": false,
+    "breakpoints": false,
+    "folds": false,
+    "min_line_number_digits": 0,
+    "runnables": false,
+  },
+  "title_bar": {
+    "show_sign_in": false,
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "ui_font_size": 15,
+  "buffer_font_size": 13,
+  "buffer_font_weight": 400,
+  "buffer_font_family": "Fira Code",
+  "buffer_line_height": "comfortable",
+  "current_line_highlight": "none",
+  "cursor_blink": true,
+  "confirm_quit": false,
+  "terminal": {
+    "cursor_shape": "bar",
+    "alternate_scroll": "off",
+    "blinking": "off",
+    "font_family": "Fira Code",
+    "copy_on_select": false,
+    "button": false,
+    "working_directory": "current_project_directory",
+    "detect_venv": "off",
+  },
+  // HIDE FILES
+  "file_scan_exclusions": [
+    "**/*.git",
+    "**/*.venv",
+    "**/__pycache__",
+    "**/*.python-version",
+    "**/*uv.lock",
+  ],
+  // LANGUAGES CONFIG
+  "languages": {
+    "Markdown": {
+      "completions": {
+        "lsp": false,
+        "words": "disabled",
+      },
+    },
+    "Python": {
+      "language_servers": ["ty", "!basedpyright"],
+    },
+  },
+  // OTHERS
+  "outline_panel": {
+    "button": false,
+  },
+  "collaboration_panel": {
+    "button": false,
+  },
+  "project_panel": {
+    "button": true,
+  },
+  "search": {
+    "button": false,
+  },
+  "diagnostics": {
+    "button": false,
+  },
+  "scrollbar": {
+    "axes": {
+      "horizontal": false,
+      "vertical": false,
+    },
+  },
+  "features": {
+    "edit_prediction_provider": "none",
+  },
+}
