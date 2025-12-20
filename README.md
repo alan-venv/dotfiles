@@ -1,7 +1,3 @@
-# Dotfiles
+### dotfiles
 
-Personal environment and tool configurations
-
-### Purpose
-
-Version control of dotfiles for fast setup replication
+My configuration files and personal collection of scripts
