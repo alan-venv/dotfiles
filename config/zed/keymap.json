@@ -17,6 +17,10 @@
       "ctrl-left": "editor::FoldFunctionBodies",
       "ctrl-right": "editor::UnfoldAll",
       "ctrl-w": "assistant::InlineAssist",
+      "ctrl-r": [
+        "action::Sequence",
+        ["pane::CloseAllItems", "project_panel::CollapseAllEntries"],
+      ],
     },
   },
 ]
