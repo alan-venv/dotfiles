@@ -15,5 +15,12 @@
     "accessibility": {
       "disableLoadingPhrases": true
     }
+  },
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp@latest"],
+      "trust": true
+    }
   }
 }
