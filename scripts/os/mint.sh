@@ -23,6 +23,12 @@ flatpak install -y flathub com.obsproject.Studio
 sudo ufw enable
 git config --global credential.helper store
 
+# RUST
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# ZED
+curl -f https://zed.dev/install.sh | sh
+
 # SHORTCUTS
 # - switch to workspace (ALT + NUM)
 # - launch terminal (ALT + RETURN)

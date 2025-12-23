@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# clear the git commit history of the current branch.
+# clear the git commit history of the current branch
 
 BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 git checkout --orphan latest
