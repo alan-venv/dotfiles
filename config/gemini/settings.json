@@ -1,0 +1,19 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "ui": {
+    "hideTips": true,
+    "hideBanner": true,
+    "footer": {
+      "hideCWD": true,
+      "hideSandboxStatus": true,
+      "hideModelInfo": true
+    },
+    "accessibility": {
+      "disableLoadingPhrases": true
+    }
+  }
+}
