@@ -15,9 +15,9 @@
   },
   // MCP
   "context_servers": {
-    "globo-mcp": {
+    "jira": {
       "enabled": true,
-      "command": "/opt/bin/globo-mcp",
+      "command": "/opt/bin/jira-mcp",
       "args": [],
       "env": {},
     },
@@ -34,11 +34,11 @@
     "dark": "One Dark",
   },
   "gutter": {
-    "line_numbers": false,
+    "line_numbers": true,
     "breakpoints": false,
     "folds": false,
     "min_line_number_digits": 0,
-    "runnables": false,
+    "runnables": true,
   },
   "title_bar": {
     "show_sign_in": false,
