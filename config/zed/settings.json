@@ -36,7 +36,7 @@
   "gutter": {
     "line_numbers": true,
     "breakpoints": false,
-    "folds": false,
+    "folds": true,
     "min_line_number_digits": 0,
     "runnables": true,
   },
@@ -65,14 +65,21 @@
     "working_directory": "current_project_directory",
     "detect_venv": "off",
   },
-  // HIDE FILES
+  // FILES CONFIG
   "file_scan_exclusions": [
     "**/*.git",
     "**/*.venv",
     "**/__pycache__",
     "**/*.python-version",
     "**/*uv.lock",
+    "**/*dist",
+    "**/*target",
+    "**/*.nuxt",
+    "**/*.output",
   ],
+  "file_types": {
+    "XML": ["poml"],
+  },
   // LANGUAGES CONFIG
   "languages": {
     "Markdown": {
@@ -83,6 +90,14 @@
     },
     "Python": {
       "language_servers": ["ty", "!basedpyright"],
+    },
+    "XML": {
+      "preferred_line_length": 999,
+      "format_on_save": "off",
+      "show_completions_on_input": false,
+    },
+    "Plain Text": {
+      "show_completions_on_input": false,
     },
   },
   // OTHERS
