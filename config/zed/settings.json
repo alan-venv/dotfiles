@@ -26,12 +26,12 @@
   "icon_theme": {
     "mode": "system",
     "light": "Zed (Default)",
-    "dark": "Zed (Default)",
+    "dark": "Material Icon Theme",
   },
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "One Dark",
+    "dark": "Ayu Dark",
   },
   "gutter": {
     "line_numbers": true,
@@ -51,7 +51,7 @@
   "buffer_font_size": 13,
   "buffer_font_weight": 400,
   "buffer_font_family": "Fira Code",
-  "buffer_line_height": "comfortable",
+  "buffer_line_height": "standard",
   "current_line_highlight": "none",
   "cursor_blink": true,
   "confirm_quit": false,
@@ -119,10 +119,23 @@
   "scrollbar": {
     "axes": {
       "horizontal": false,
-      "vertical": false,
+      "vertical": true,
     },
   },
   "features": {
     "edit_prediction_provider": "none",
+  },
+  // JAVA
+  // $ rm -r ~/.cache/jdtls-* // to fix broken jdtls
+  // lombok: ~/.local/share/zed/extensions/work/java/lombok/lombok-<versão>.jar
+  "lsp": {
+    "jdtls": {
+      "settings": {
+        "java_home": "/opt/corretto-21",
+        "lombok_support": true,
+        "jdk_auto_download": false,
+        "check_updates": "always",
+      },
+    },
   },
 }
