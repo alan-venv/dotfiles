@@ -17,6 +17,13 @@
       "ctrl-left": "editor::FoldFunctionBodies",
       "ctrl-right": "editor::UnfoldAll",
       "ctrl-w": "assistant::InlineAssist",
+      // SEARCH
+      "ctrl-n": "file_finder::Toggle",
+      "ctrl-o": "outline::Toggle",
+      "ctrl-0": "pane::DeploySearch",
+      // MOUSE
+      "ctrl-9": "pane::CloseActiveItem",
+      // RESET
       "ctrl-r": [
         "action::Sequence",
         ["pane::CloseAllItems", "project_panel::CollapseAllEntries"],

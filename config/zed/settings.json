@@ -1,6 +1,7 @@
 {
   // AGENT
   "agent": {
+    "dock": "right",
     "always_allow_tool_actions": true,
     "default_profile": "write",
     "inline_assistant_model": {
@@ -56,6 +57,7 @@
   "cursor_blink": true,
   "confirm_quit": false,
   "terminal": {
+    "dock": "bottom",
     "cursor_shape": "bar",
     "alternate_scroll": "off",
     "blinking": "off",
@@ -75,7 +77,12 @@
     "**/*dist",
     "**/*target",
     "**/*.nuxt",
+    "**/*.classpath",
     "**/*.output",
+    "**/*.factorypath",
+    "**/*.project",
+    "**/*.settings",
+    "**/*.idea",
   ],
   "file_types": {
     "XML": ["poml"],
@@ -108,6 +115,16 @@
     "button": false,
   },
   "project_panel": {
+    "hide_hidden": false,
+    "hide_root": true,
+    "indent_guides": {
+      "show": "never",
+    },
+    "indent_size": 16.0,
+    "git_status": true,
+    "folder_icons": true,
+    "file_icons": true,
+    "entry_spacing": "standard",
     "button": true,
   },
   "search": {
