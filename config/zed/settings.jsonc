@@ -63,7 +63,7 @@
     "blinking": "off",
     "font_family": "Fira Code",
     "copy_on_select": false,
-    "button": false,
+    "button": true,
     "working_directory": "current_project_directory",
     "detect_venv": "off",
   },
