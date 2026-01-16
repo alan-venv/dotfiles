@@ -3,7 +3,7 @@
 # PURGE SOME SHITS
 sudo apt purge -y libreoffice*
 sudo rm -r /etc/libreoffice/
-sudo apt purge -y firefox
+sudo apt purge -y firefox*
 sudo apt purge -y java*
 sudo apt purge -y speech-dispatcher
 
