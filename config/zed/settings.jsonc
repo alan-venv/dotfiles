@@ -83,6 +83,9 @@
     "**/*.project",
     "**/*.settings",
     "**/*.idea",
+    "**/*.gradle",
+    "**/*gradle",
+    "**/*bin",
   ],
   "file_types": {
     "XML": ["poml"],
@@ -96,11 +99,11 @@
       },
     },
     "Python": {
-      "language_servers": ["ty", "!basedpyright"],
+      "language_servers": ["ty", "!basedpyright", "..."],
     },
     "XML": {
-      "preferred_line_length": 999,
       "format_on_save": "off",
+      "preferred_line_length": 999,
       "show_completions_on_input": false,
     },
     "Plain Text": {
