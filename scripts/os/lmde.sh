@@ -23,17 +23,6 @@ flatpak install -y flathub com.obsproject.Studio
 sudo ufw enable
 git config --global credential.helper store
 
-# RUST
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-# ZED
-curl -f https://zed.dev/install.sh | sh
-
-# PYTHON
-curl -LsSf https://astral.sh/uv/install.sh | sh
-uv tool install ty@latest
-uv tool install ruff@latest
-
 # DOCKER
 sudo apt-get update
 sudo apt-get install ca-certificates curl
