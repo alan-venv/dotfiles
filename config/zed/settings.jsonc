@@ -1,5 +1,8 @@
 {
   // AGENT
+  "edit_predictions": {
+    "provider": "none",
+  },
   "agent": {
     "dock": "right",
     "always_allow_tool_actions": true,
@@ -30,9 +33,9 @@
     "dark": "Material Icon Theme",
   },
   "theme": {
-    "mode": "system",
+    "mode": "light",
     "light": "One Light",
-    "dark": "Ayu Dark",
+    "dark": "One Dark",
   },
   "gutter": {
     "line_numbers": true,
@@ -73,6 +76,7 @@
     "**/*.venv",
     "**/__pycache__",
     "**/*.python-version",
+    "**/.ruff_cache",
     "**/*uv.lock",
     "**/*dist",
     "**/*target",
@@ -141,9 +145,6 @@
       "horizontal": false,
       "vertical": true,
     },
-  },
-  "features": {
-    "edit_prediction_provider": "none",
   },
   // JAVA
   // $ rm -r ~/.cache/jdtls-* // to fix broken jdtls
