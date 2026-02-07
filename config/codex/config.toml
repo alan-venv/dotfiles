@@ -1,3 +1,14 @@
+personality = "pragmatic"
+model = "gpt-5.3-codex"
+
 [mcp_servers.chrome-devtools]
 command = "bunx"
-args = ["chrome-devtools-mcp@latest", "--headless"]
+args = ["chrome-devtools-mcp@latest", "--headless", "--viewport=1920x1080"]
+
+[tui]
+animations = true
+notifications = false
+show_tooltips = false
+
+[feedback]
+enabled = false

@@ -4,12 +4,19 @@
   "mcp": {
     "chrome-devtools": {
       "type": "local",
-      "command": ["bunx", "-y", "chrome-devtools-mcp@latest", "--headless"],
+      "command": [
+        "bunx",
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--headless",
+        "--viewport=1920x1080",
+      ],
     },
-    "jira": {
-      "type": "local",
-      "enabled": true,
-      "command": ["/opt/bin/jira-mcp"],
+  },
+  "command": {
+    "summary": {
+      "template": "Analise este projeto e me diga o que voce entendeu",
+      "description": "To understand the project",
     },
   },
 }
