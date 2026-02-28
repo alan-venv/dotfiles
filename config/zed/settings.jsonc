@@ -1,11 +1,14 @@
 {
   // AGENT
+  "git_panel": {
+    "dock": "left",
+    "tree_view": false,
+  },
   "edit_predictions": {
     "provider": "none",
   },
   "agent": {
     "dock": "right",
-    "always_allow_tool_actions": true,
     "default_profile": "write",
     "inline_assistant_model": {
       "provider": "openai",
@@ -13,18 +16,10 @@
     },
     "default_model": {
       "provider": "openai",
-      "model": "gpt-5.2",
+      "model": "gpt-4.1-nano",
     },
     "model_parameters": [],
-  },
-  // MCP
-  "context_servers": {
-    "jira": {
-      "enabled": true,
-      "command": "/opt/bin/jira-mcp",
-      "args": [],
-      "env": {},
-    },
+    "inline_assistant_use_streaming_tools": true,
   },
   // APPEARANCE
   "icon_theme": {
@@ -33,7 +28,7 @@
     "dark": "Material Icon Theme",
   },
   "theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "One Light",
     "dark": "One Dark",
   },
@@ -78,6 +73,8 @@
     "**/*.python-version",
     "**/.ruff_cache",
     "**/*uv.lock",
+    "**/*node_modules",
+    "**/*package-lock.json",
     "**/*dist",
     "**/*target",
     "**/*.nuxt",
@@ -90,6 +87,7 @@
     "**/*.gradle",
     "**/*gradle",
     "**/*bin",
+    "**/*Cargo.lock",
   ],
   "file_types": {
     "XML": ["poml"],
@@ -112,6 +110,9 @@
     },
     "Plain Text": {
       "show_completions_on_input": false,
+    },
+    "JavaScript": {
+      "format_on_save": "off",
     },
   },
   // OTHERS
