@@ -1,5 +1,6 @@
-personality = "pragmatic"
-model = "gpt-5.3-codex"
+model = "gpt-5.4"
+service_tier = "fast"
+#personality = "pragmatic"
 
 [mcp_servers.chrome-devtools]
 command = "bunx"
