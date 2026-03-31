@@ -1,3 +1,10 @@
 {
-  "extensions": ["html", "toml", "java", "material-icon-theme", "xml"],
+  "extensions": [
+    "html",
+    "toml",
+    "java",
+    "material-icon-theme",
+    "xml",
+    "dockerfile",
+  ],
 }

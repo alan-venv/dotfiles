@@ -1,5 +1,6 @@
 {
   // AGENT
+  "agent_servers": {},
   "git_panel": {
     "dock": "left",
     "tree_view": false,
@@ -105,7 +106,7 @@
       },
     },
     "Python": {
-      "language_servers": ["ty", "!basedpyright", "..."],
+      "language_servers": ["ty", "!basedpyright", "!pylsp", "..."],
     },
     "XML": {
       "format_on_save": "off",
@@ -119,9 +120,14 @@
       "format_on_save": "off",
     },
     "Java": {
-      "format_on_save": "off",
+      "format_on_save": "on",
       "tab_size": 2,
-      "hard_tabs": false,
+      "formatter": {
+        "external": {
+          "command": "google-java-format",
+          "arguments": ["-", "--assume-filename", "{buffer_path}"],
+        },
+      },
     },
   },
   // OTHERS

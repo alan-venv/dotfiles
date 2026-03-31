@@ -28,6 +28,7 @@
         "action::Sequence",
         ["pane::CloseAllItems", "project_panel::CollapseAllEntries"],
       ],
+      "ctrl-shift-r": "workspace::Reload",
     },
   },
 ]
