@@ -8,18 +8,6 @@
   },
 ]
 
-/* Attach to Quarkus Dev (Enable Hot Reload)
-[
-  {
-    "label": "Attach Quarkus",
-    "adapter": "Java",
-    "request": "attach",
-    "hostName": "127.0.0.1",
-    "port": 5005,
-  },
-]
-*/
-
 /* Default Java application execution
 [
   {
@@ -30,8 +18,8 @@
     "cwd": "$ZED_WORKTREE_ROOT",
     "env": {
       "MY_VAR": "hello",
-      "DATABASE_URL": "postgres://localhost:5432",
-    },
-  },
+      "DATABASE_URL": "postgres://localhost:5432"
+    }
+  }
 ]
 */
