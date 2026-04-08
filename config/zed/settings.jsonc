@@ -36,9 +36,9 @@
   "gutter": {
     "line_numbers": true,
     "breakpoints": false,
-    "folds": true,
+    "folds": false,
     "min_line_number_digits": 0,
-    "runnables": true,
+    "runnables": false,
   },
   "title_bar": {
     "show_sign_in": false,
@@ -93,6 +93,7 @@
     "**/.gradle",
     "**/*mvnw*",
     "**/.mvn",
+    "**/.codex",
   ],
   "file_types": {
     "XML": ["poml"],
@@ -100,6 +101,7 @@
   // LANGUAGES CONFIG
   "languages": {
     "Markdown": {
+      "tab_size": 4,
       "completions": {
         "lsp": false,
         "words": "disabled",
@@ -120,8 +122,12 @@
       "format_on_save": "off",
     },
     "Java": {
-      "format_on_save": "on",
       "tab_size": 2,
+      "format_on_save": "off",
+      "indent_guides": {
+        "enabled": false,
+      },
+      //"formatter": "language_server",
       "formatter": {
         "external": {
           "command": "google-java-format",
@@ -162,9 +168,11 @@
       "vertical": true,
     },
   },
-  // JAVA
-  // $ rm -r ~/.cache/jdtls-* // to fix broken jdtls
-  // lombok: ~/.local/share/zed/extensions/work/java/lombok/lombok-<versão>.jar
+  /*
+    # JAVA (to fix broken jdtls or lombok)
+    $ rm -r ~/.cache/jdtls-*
+    $ rm -r ~/.local/share/zed/extensions/work/java/lombok/lombok-*.jar
+   */
   "lsp": {
     "jdtls": {
       "settings": {
