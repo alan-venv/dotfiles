@@ -1,37 +1,31 @@
 {
   // AGENT
-  "agent_servers": {},
-  "git_panel": {
-    "dock": "left",
-    "tree_view": false,
-  },
   "edit_predictions": {
     "provider": "none",
   },
   "agent": {
+    "button": false,
     "dock": "right",
     "default_profile": "write",
     "inline_assistant_model": {
       "provider": "openai",
-      "model": "gpt-5.2",
+      "model": "gpt-5.4",
     },
     "default_model": {
       "provider": "openai",
       "model": "gpt-4.1-nano",
     },
-    "model_parameters": [],
-    "inline_assistant_use_streaming_tools": true,
   },
   // APPEARANCE
   "icon_theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "Zed (Default)",
-    "dark": "Material Icon Theme",
+    "dark": "Zed (Default)",
   },
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "One Dark",
+    "dark": "Ayu Dark",
   },
   "gutter": {
     "line_numbers": true,
@@ -56,7 +50,7 @@
   "cursor_blink": true,
   "confirm_quit": false,
   "terminal": {
-    "dock": "bottom",
+    "dock": "right",
     "cursor_shape": "bar",
     "alternate_scroll": "off",
     "blinking": "off",
@@ -137,6 +131,17 @@
     },
   },
   // OTHERS
+  "debugger": {
+    "dock": "right",
+    "save_breakpoints": false,
+  },
+  "notification_panel": {
+    "button": false,
+  },
+  "git_panel": {
+    "dock": "right",
+    "tree_view": false,
+  },
   "outline_panel": {
     "button": false,
   },
@@ -154,7 +159,7 @@
     "folder_icons": true,
     "file_icons": true,
     "entry_spacing": "standard",
-    "button": true,
+    "button": false,
   },
   "search": {
     "button": false,

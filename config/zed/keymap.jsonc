@@ -1,14 +1,26 @@
 [
   {
-    "context": "Workspace",
     "bindings": {
-      "ctrl-enter": "workspace::NewTerminal",
+      // SEARCH
+      "ctrl-n": "file_finder::Toggle",
+      "ctrl-o": "outline::Toggle",
+      "ctrl-0": "pane::DeploySearch",
+      // MOUSE
+      "ctrl-9": "pane::CloseActiveItem",
+      // RESET
+      "ctrl-shift-r": "workspace::Reload",
+      // OTHERS
+      "ctrl-enter": "terminal_panel::Toggle",
+      //"ctrl-space": "task::Spawn",
+      "ctrl-r": [
+        "action::Sequence",
+        ["pane::CloseAllItems", "project_panel::CollapseAllEntries"],
+      ],
     },
   },
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-enter": "workspace::NewTerminal",
       "ctrl-l": "editor::Format",
       "ctrl-up": "editor::ConvertToUpperCase",
       "ctrl-down": "editor::ConvertToLowerCase",
@@ -17,18 +29,6 @@
       "ctrl-left": "editor::FoldFunctionBodies",
       "ctrl-right": "editor::UnfoldAll",
       "ctrl-w": "assistant::InlineAssist",
-      // SEARCH
-      "ctrl-n": "file_finder::Toggle",
-      "ctrl-o": "outline::Toggle",
-      "ctrl-0": "pane::DeploySearch",
-      // MOUSE
-      "ctrl-9": "pane::CloseActiveItem",
-      // RESET
-      "ctrl-r": [
-        "action::Sequence",
-        ["pane::CloseAllItems", "project_panel::CollapseAllEntries"],
-      ],
-      "ctrl-shift-r": "workspace::Reload",
     },
   },
 ]
