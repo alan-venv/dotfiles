@@ -11,10 +11,15 @@
       "ctrl-shift-r": "workspace::Reload",
       // OTHERS
       "ctrl-enter": "terminal_panel::Toggle",
-      //"ctrl-space": "task::Spawn",
+      "ctrl-e": "task::Spawn",
       "ctrl-r": [
         "action::Sequence",
-        ["pane::CloseAllItems", "project_panel::CollapseAllEntries"],
+        [
+          "project_panel::CollapseAllEntries",
+          "workspace::CloseAllItemsAndPanes",
+          "workspace::CloseAllDocks",
+          "workspace::ToggleLeftDock",
+        ],
       ],
     },
   },
