@@ -7,13 +7,13 @@
     "button": false,
     "dock": "right",
     "default_profile": "write",
-    "inline_assistant_model": {
-      "provider": "openai",
-      "model": "gpt-5.4",
-    },
     "default_model": {
       "provider": "openai",
       "model": "gpt-4.1-nano",
+    },
+    "inline_assistant_model": {
+      "provider": "openai",
+      "model": "gpt-5.4",
     },
   },
   // APPEARANCE
