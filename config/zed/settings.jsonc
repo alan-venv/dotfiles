@@ -149,6 +149,7 @@
     "button": false,
   },
   "project_panel": {
+    "default_width": 250,
     "hide_hidden": false,
     "hide_root": true,
     "indent_guides": {
