@@ -1,10 +1,12 @@
-model = "gpt-5.4"
+model = "gpt-5.5"
 service_tier = "fast"
+model_reasoning_effort = "medium"
 #personality = "pragmatic"
 
 [mcp_servers.chrome-devtools]
 command = "bunx"
 args = ["chrome-devtools-mcp@latest", "--headless", "--viewport=1920x1080"]
+default_tools_approval_mode = "approve"
 
 [tui]
 animations = true
@@ -13,3 +15,8 @@ show_tooltips = false
 
 [feedback]
 enabled = false
+
+[features]
+codex_hooks = false
+
+## PROJECTS ##
