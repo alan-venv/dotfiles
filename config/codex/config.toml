@@ -1,6 +1,6 @@
 model = "gpt-5.5"
 service_tier = "fast"
-model_reasoning_effort = "medium"
+model_reasoning_effort = "high"
 #personality = "pragmatic"
 
 [mcp_servers.chrome-devtools]
@@ -12,6 +12,7 @@ default_tools_approval_mode = "approve"
 animations = true
 notifications = false
 show_tooltips = false
+status_line = ["model-with-reasoning", "context-used", "total-input-tokens", "total-output-tokens"]
 
 [feedback]
 enabled = false
