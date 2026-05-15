@@ -4,6 +4,7 @@ model_reasoning_effort = "high"
 #personality = "pragmatic"
 
 [tui]
+theme = "dracula"
 animations = true
 notifications = false
 show_tooltips = false
@@ -14,5 +15,15 @@ enabled = false
 
 [features]
 codex_hooks = false
+
+[mcp_servers.chrome-devtools]
+enabled = false
+command = "bunx"
+args = ["chrome-devtools-mcp@latest", "--headless", "--viewport=1920x1080"]
+default_tools_approval_mode = "approve"
+
+[notice]
+hide_rate_limit_model_nudge = true
+fast_default_opt_out = true
 
 ## PROJECTS ##

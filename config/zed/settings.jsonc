@@ -1,9 +1,11 @@
 {
   // AGENT
+  "cli_default_open_behavior": "new_window",
   "edit_predictions": {
     "provider": "none",
   },
   "agent": {
+    "sidebar_side": "left",
     "button": false,
     "dock": "right",
     "default_profile": "write",
@@ -25,14 +27,14 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Ayu Dark",
+    "dark": "One Dark",
   },
   "gutter": {
     "line_numbers": true,
     "breakpoints": false,
     "folds": false,
     "min_line_number_digits": 0,
-    "runnables": false,
+    "runnables": true,
   },
   "title_bar": {
     "show_sign_in": false,
@@ -50,7 +52,8 @@
   "cursor_blink": true,
   "confirm_quit": false,
   "terminal": {
-    "dock": "right",
+    "flexible": false,
+    "dock": "bottom",
     "cursor_shape": "bar",
     "alternate_scroll": "off",
     "blinking": "off",
@@ -135,9 +138,6 @@
     "dock": "right",
     "save_breakpoints": false,
   },
-  "notification_panel": {
-    "button": false,
-  },
   "git_panel": {
     "dock": "right",
     "tree_view": false,
@@ -149,6 +149,7 @@
     "button": false,
   },
   "project_panel": {
+    "dock": "left",
     "default_width": 250,
     "hide_hidden": false,
     "hide_root": true,
@@ -160,7 +161,7 @@
     "folder_icons": true,
     "file_icons": true,
     "entry_spacing": "standard",
-    "button": false,
+    "button": true,
   },
   "search": {
     "button": false,
@@ -177,12 +178,14 @@
   /*
     # JAVA (to fix broken jdtls or lombok)
     $ rm -r ~/.cache/jdtls-*
+    $ rm -r ~/.local/share/zed/extensions/work/java/jdtls
     $ rm -r ~/.local/share/zed/extensions/work/java/lombok/lombok-*.jar
    */
   "lsp": {
     "jdtls": {
       "settings": {
-        "java_home": "/opt/corretto-25",
+        "java_home": "/home/admin/.jem/home/java",
+        "jdtls_launcher": "/opt/jdtls/bin/jdtls",
         "lombok_support": true,
         "jdk_auto_download": false,
         "check_updates": "always",

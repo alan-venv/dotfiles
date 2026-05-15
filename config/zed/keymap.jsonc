@@ -36,4 +36,10 @@
       "ctrl-w": "assistant::InlineAssist",
     },
   },
+  {
+    "context": "Editor",
+    "unbind": {
+      "ctrl-;": "editor::ToggleLineNumbers",
+    },
+  },
 ]

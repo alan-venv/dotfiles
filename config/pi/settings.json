@@ -1,9 +1,11 @@
 {
-  "lastChangelogVersion": "0.70.6",
+  "lastChangelogVersion": "0.74.0",
   "defaultProvider": "github-copilot",
-  "defaultModel": "claude-sonnet-4.6",
-  "defaultThinkingLevel": "high",
-  "theme": "dark",
+  "defaultModel": "gpt-5-mini",
+  "defaultThinkingLevel": "medium",
   "enableInstallTelemetry": false,
-  "hideThinkingBlock": true
+  "theme": "dark",
+  "hideThinkingBlock": true,
+  "collapseChangelog": true,
+  "quietStartup": true
 }
