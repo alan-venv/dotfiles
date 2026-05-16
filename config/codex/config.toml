@@ -14,7 +14,7 @@ status_line = ["model-with-reasoning", "context-used", "total-input-tokens", "to
 enabled = false
 
 [features]
-codex_hooks = false
+hooks = false
 
 [mcp_servers.chrome-devtools]
 enabled = false
