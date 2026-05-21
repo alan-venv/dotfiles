@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo dnf install git vim htop alacritty keepassxc ccrypt fastfetch
-sudo dnf install gcc openssl-devel
+sudo dnf install gcc openssl-devel alsa-lib-devel
 sudo dnf install ripgrep jq xxd
 sudo dnf remove kontact akregator kmail neochat korganizer kaddressbook kwalletmanager5
 sudo dnf remove java-*-openjdk-*
@@ -14,3 +14,7 @@ sudo dnf remove java-*-openjdk-*
 
 ## Docker Post Install
 # $ sudo usermod -aG docker $USER && reboot
+
+## UV Post Install
+# $ uv tool install ruff@latest
+# $ uv tool install ty@latest
