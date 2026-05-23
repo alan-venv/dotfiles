@@ -2,7 +2,7 @@
 
 sudo dnf install git vim htop alacritty keepassxc ccrypt fastfetch
 sudo dnf install gcc openssl-devel alsa-lib-devel
-sudo dnf install ripgrep jq xxd
+sudo dnf install ffmpeg ripgrep jq xxd
 sudo dnf remove kontact akregator kmail neochat korganizer kaddressbook kwalletmanager5
 sudo dnf remove java-*-openjdk-*
 
