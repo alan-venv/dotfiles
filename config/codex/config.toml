@@ -1,7 +1,6 @@
 model = "gpt-5.5"
 service_tier = "fast"
 model_reasoning_effort = "high"
-#personality = "pragmatic"
 
 [tui]
 theme = "dracula"
