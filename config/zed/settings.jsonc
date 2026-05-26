@@ -107,11 +107,6 @@
     "Python": {
       "language_servers": ["ty", "!basedpyright", "!pylsp", "..."],
     },
-    "XML": {
-      "format_on_save": "off",
-      "preferred_line_length": 999,
-      "show_completions_on_input": false,
-    },
     "Plain Text": {
       "show_completions_on_input": false,
     },
