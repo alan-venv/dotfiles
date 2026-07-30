@@ -1,3 +1,0 @@
-prefix_rule(pattern=["mvn"], decision="allow")
-prefix_rule(pattern=["playwright-cli"], decision="allow")
-prefix_rule(pattern=["curl"], decision="allow")
