@@ -1,6 +1,6 @@
 [
   {
-    "label": "Attach Quarkus",
+    "label": "Attach to JVM",
     "adapter": "Java",
     "request": "attach",
     "hostName": "127.0.0.1",

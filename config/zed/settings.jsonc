@@ -11,11 +11,11 @@
     "default_profile": "write",
     "default_model": {
       "provider": "openai",
-      "model": "gpt-4.1-nano",
+      "model": "gpt-5.6-luna",
     },
     "inline_assistant_model": {
       "provider": "openai",
-      "model": "gpt-5.4",
+      "model": "gpt-5.6-luna",
     },
   },
   // APPEARANCE
@@ -91,6 +91,7 @@
     "**/*mvnw*",
     "**/.mvn",
     "**/.codex",
+    "**/.DS_Store"
   ],
   "file_types": {
     "XML": ["poml"],

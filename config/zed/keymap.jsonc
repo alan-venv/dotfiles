@@ -34,6 +34,7 @@
       "ctrl-left": "editor::FoldFunctionBodies",
       "ctrl-right": "editor::UnfoldAll",
       "ctrl-w": "assistant::InlineAssist",
+      "ctrl-b": "git::Blame",
     },
   },
   {
