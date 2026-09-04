@@ -1,10 +1,10 @@
 {
   "defaultProvider": "github-copilot",
-  "defaultModel": "kimi-k3",
+  "defaultModel": "gpt-5.6-luna",
   "defaultThinkingLevel": "high",
   "enableInstallTelemetry": false,
   "theme": "dark",
   "hideThinkingBlock": true,
   "collapseChangelog": true,
-  "quietStartup": true
+  "quietStartup": false
 }
