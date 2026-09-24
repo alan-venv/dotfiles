@@ -150,6 +150,7 @@
     "button": false,
   },
   "project_panel": {
+    "folder_indicator": "icon",
     "dock": "left",
     "default_width": 250,
     "hide_hidden": false,
@@ -159,7 +160,6 @@
     },
     "indent_size": 16.0,
     "git_status": true,
-    "folder_icons": true,
     "file_icons": true,
     "entry_spacing": "standard",
     "button": true,
