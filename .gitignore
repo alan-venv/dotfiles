@@ -1,0 +1,9 @@
+# RUST
+/target
+/dist
+
+# PYTHON
+**__pycache__
+
+# OTHERS
+**.env

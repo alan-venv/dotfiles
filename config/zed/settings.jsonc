@@ -1,0 +1,196 @@
+{
+  // AGENT
+  "cli_default_open_behavior": "new_window",
+  "edit_predictions": {
+    "provider": "none",
+  },
+  "agent": {
+    "sidebar_side": "left",
+    "button": false,
+    "dock": "right",
+    "default_profile": "write",
+    "default_model": {
+      "provider": "openai",
+      "model": "gpt-6-luna",
+    },
+    "inline_assistant_model": {
+      "provider": "openai",
+      "model": "gpt-6-luna",
+    },
+  },
+  // APPEARANCE
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)",
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+  "gutter": {
+    "line_numbers": true,
+    "breakpoints": false,
+    "folds": false,
+    "min_line_number_digits": 0,
+    "runnables": true,
+  },
+  "title_bar": {
+    "show_sign_in": false,
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "ui_font_size": 15,
+  "buffer_font_size": 13,
+  "buffer_font_weight": 400,
+  "buffer_font_family": "Fira Code",
+  "buffer_line_height": "standard",
+  "current_line_highlight": "none",
+  "cursor_blink": true,
+  "confirm_quit": false,
+  "terminal": {
+    "flexible": false,
+    "dock": "bottom",
+    "cursor_shape": "bar",
+    "alternate_scroll": "off",
+    "blinking": "off",
+    "font_family": "Fira Code",
+    "copy_on_select": false,
+    "button": true,
+    "working_directory": "current_project_directory",
+    "detect_venv": "off",
+  },
+  // FILES CONFIG
+  "file_scan_exclusions": [
+    "**/*.git",
+    "**/*.venv",
+    "**/__pycache__",
+    "**/*.python-version",
+    "**/.ruff_cache",
+    "**/*uv.lock",
+    "**/*node_modules",
+    "**/*package-lock.json",
+    "**/*dist",
+    "**/*target",
+    "**/*.nuxt",
+    "**/*.classpath",
+    "**/*.output",
+    "**/*.factorypath",
+    "**/*.project",
+    "**/*.settings",
+    "**/*.idea",
+    "**/*.gradle",
+    "**/*gradle",
+    "**/*Cargo.lock",
+    "**/*bun.lock",
+    "**/*gradlew*",
+    "**/.gradle",
+    "**/*mvnw*",
+    "**/.mvn",
+    "**/.codex",
+    "**/.DS_Store"
+  ],
+  "file_types": {
+    "XML": ["poml"],
+  },
+  // LANGUAGES CONFIG
+  "languages": {
+    "Markdown": {
+      "tab_size": 4,
+      "completions": {
+        "lsp": false,
+        "words": "disabled",
+      },
+    },
+    "Python": {
+      "language_servers": ["ty", "!basedpyright", "!pylsp", "..."],
+    },
+    "XML": {
+      "format_on_save": "off",
+      "preferred_line_length": 999,
+      "show_completions_on_input": false,
+    },
+    "Plain Text": {
+      "show_completions_on_input": false,
+    },
+    "JavaScript": {
+      "format_on_save": "off",
+    },
+    "Java": {
+      "tab_size": 2,
+      "format_on_save": "off",
+      "indent_guides": {
+        "enabled": false,
+      },
+      //"formatter": "language_server",
+      "formatter": {
+        "external": {
+          "command": "google-java-format",
+          "arguments": ["-", "--assume-filename", "{buffer_path}"],
+        },
+      },
+    },
+  },
+  // OTHERS
+  "debugger": {
+    "dock": "right",
+    "save_breakpoints": false,
+  },
+  "git_panel": {
+    "dock": "right",
+    "tree_view": false,
+  },
+  "outline_panel": {
+    "button": false,
+  },
+  "collaboration_panel": {
+    "button": false,
+  },
+  "project_panel": {
+    "dock": "left",
+    "default_width": 250,
+    "hide_hidden": false,
+    "hide_root": true,
+    "indent_guides": {
+      "show": "never",
+    },
+    "indent_size": 16.0,
+    "git_status": true,
+    "folder_icons": true,
+    "file_icons": true,
+    "entry_spacing": "standard",
+    "button": true,
+  },
+  "search": {
+    "button": false,
+  },
+  "diagnostics": {
+    "button": false,
+  },
+  "scrollbar": {
+    "axes": {
+      "horizontal": false,
+      "vertical": true,
+    },
+  },
+  /*
+    # JAVA (to fix broken jdtls or lombok)
+    $ rm -r ~/.cache/jdtls-*
+    $ rm -r ~/.local/share/zed/extensions/work/java/jdtls
+    $ rm -r ~/.local/share/zed/extensions/work/java/lombok/lombok-*.jar
+   */
+  "lsp": {
+    "jdtls": {
+      "settings": {
+        "java_home": "/home/admin/.jem/home/java",
+        "jdtls_launcher": "/opt/jdtls/bin/jdtls",
+        "lombok_support": true,
+        "jdk_auto_download": false,
+        "check_updates": "always",
+      },
+    },
+  },
+}

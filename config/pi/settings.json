@@ -1,0 +1,10 @@
+{
+  "defaultProvider": "github-copilot",
+  "defaultModel": "gpt-6-luna",
+  "defaultThinkingLevel": "high",
+  "enableInstallTelemetry": false,
+  "theme": "dark",
+  "hideThinkingBlock": true,
+  "collapseChangelog": true,
+  "quietStartup": false
+}

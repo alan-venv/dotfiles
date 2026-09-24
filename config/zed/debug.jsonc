@@ -1,0 +1,25 @@
+[
+  {
+    "label": "Attach to JVM",
+    "adapter": "Java",
+    "request": "attach",
+    "hostName": "127.0.0.1",
+    "port": 5005,
+  },
+]
+
+/* Default Java application execution
+[
+  {
+    "adapter": "Java",
+    "request": "launch",
+    "label": "Launch Debugger",
+    "stopOnEntry": true,
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "env": {
+      "MY_VAR": "hello",
+      "DATABASE_URL": "postgres://localhost:5432"
+    }
+  }
+]
+*/

@@ -1,0 +1,112 @@
+{
+  "git.mergeEditor": true,
+  "breadcrumbs.enabled": false,
+  // window
+  "window.menuBarVisibility": "toggle",
+  "window.customTitleBarVisibility": "never",
+  // workbench
+  "workbench.iconTheme": "symbols",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.tree.indent": 16,
+  "workbench.editor.empty.hint": "hidden",
+  // terminal
+  "terminal.integrated.fontSize": 12, // ? 14
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.shellIntegration.enabled": false,
+  // editor
+  "editor.tabSize": 2,
+  "editor.fontSize": 11, // ? 14 ==
+  "editor.fontFamily": "Fira Code",
+  "editor.lineHeight": 22, // ? 1.8
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.rulers": [],
+  "editor.suggestSelection": "first",
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  // files
+  "files.hotExit": "onExitAndWindowClose",
+  "python.terminal.activateEnvironment": false,
+  "files.associations": {
+    "*.poml": "xml",
+  },
+  "files.exclude": {
+    // javascript
+    "package-lock.json": true,
+    "node_modules": true,
+    ".next": true,
+    "next-env.d.ts": true,
+    "next.config.mjs": true,
+    "tsconfig.json": true,
+    "tailwind.config.ts": true,
+    "postcss.config.js": true,
+    // rust
+    "**/Cargo.lock": true,
+    "**/target": true,
+    "bin": true,
+    "obj": true,
+    "dist": true,
+    // others
+    ".gitignore": false,
+    ".dockerignore": false,
+    ".venv": true,
+    "**/__pycache__": true,
+    "**/uv.lock": true,
+  },
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": false,
+  // javascript and typescript
+  "javascript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // ! extensions
+  "extensions.ignoreRecommendations": true,
+  // rust
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  // prettier
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": false,
+  // codesnap
+  "codesnap.transparentBackground": true,
+  "codesnap.showLineNumbers": false,
+  "codesnap.showWindowControls": false,
+  // symbols
+  "symbols.hidesExplorerArrows": true,
+  // ! others
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "vscode.markdown-language-features",
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.statusBar.visible": false,
+  "update.showReleaseNotes": false,
+  "chat.commandCenter.enabled": false,
+  "explorer.compactFolders": false,
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+  },
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "explorer.confirmPasteNative": false,
+  "python.defaultInterpreterPath": "/bin/python3",
+  "redhat.telemetry.enabled": false,
+}
