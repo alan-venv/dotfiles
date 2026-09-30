@@ -1,4 +1,4 @@
-model = "gpt-6-sol"
+model = "gpt-6.1-sol"
 service_tier = "fast"
 model_reasoning_effort = "high"
 
