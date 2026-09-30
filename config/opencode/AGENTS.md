@@ -1,4 +1,4 @@
-# Global instructions
+## Interaction instructions
 
 - Be concise and direct.
 - Do not provide explanations unless explicitly requested.
