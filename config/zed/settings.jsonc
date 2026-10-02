@@ -5,7 +5,9 @@
     "provider": "none",
   },
   "agent": {
-    "sidebar_side": "left",
+    "threads_sidebar": {
+      "position": "left"
+    },
     "button": false,
     "dock": "right",
     "default_profile": "write",
@@ -91,7 +93,8 @@
     "**/*mvnw*",
     "**/.mvn",
     "**/.codex",
-    "**/.DS_Store"
+    "**/.DS_Store",
+    "**/.playwright-cli"
   ],
   "file_types": {
     "XML": ["poml"],
