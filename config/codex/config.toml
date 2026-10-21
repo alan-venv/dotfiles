@@ -30,9 +30,15 @@ name = "plugin-creator"
 enabled = false
 
 [mcp_servers.chrome-devtools]
-command = "bunx"
-args = ["chrome-devtools-mcp@latest", "--headless", "--viewport=1920x1080"]
-enabled = false
+command = "npx"
+args = [
+  "-y",
+  "chrome-devtools-mcp@latest",
+  #"--headless",
+  "--viewport=1920x1080",
+  "--chrome-arg=--disable-features=LocalNetworkAccessChecks"
+]
+enabled = true
 default_tools_approval_mode = "approve"
 
 [mcp_servers.openaiDeveloperDocs]

@@ -2,6 +2,7 @@
   "model": "opus",
   "theme": "dark",
   "spinnerTipsEnabled": false,
+  "terminalProgressBarEnabled": false,
   "skipDangerousModePermissionPrompt": true,
   "permissions": {
     "defaultMode": "bypassPermissions"

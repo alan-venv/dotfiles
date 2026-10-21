@@ -1,0 +1,9 @@
+keybind = ctrl+shift+right=new_split:right
+keybind = ctrl+shift+down=new_split:down
+keybind = ctrl+shift+r=reload_config
+
+maximize = true
+font-size = 11
+background-opacity = 1
+background = #181818
+window-decoration = none
