@@ -1,10 +1,20 @@
 {
   "defaultProvider": "github-copilot",
-  "defaultModel": "gpt-6-luna",
+  "defaultModel": "claude-haiku-5.5",
   "defaultThinkingLevel": "high",
   "enableInstallTelemetry": false,
   "theme": "dark",
   "hideThinkingBlock": true,
   "collapseChangelog": true,
-  "quietStartup": false
+  "quietStartup": false,
+  "fullscreenCopyOnSelect": true,
+  "providers": {
+    "openrouter": {
+      "modelOverrides": {
+        "moonshotai/kimi-k3.1-pro": {
+          "maxTokens": 262144
+        }
+      }
+    }
+  }
 }

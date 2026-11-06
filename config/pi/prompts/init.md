@@ -1,4 +1,4 @@
 ---
 description: Quick Summary
 ---
-Give me a quick summary of the codebase.
+Analise brevemente o projeto e aguarde instruções
