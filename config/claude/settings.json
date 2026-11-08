@@ -2,8 +2,12 @@
   "model": "opus",
   "theme": "dark",
   "spinnerTipsEnabled": false,
+  "switchModelsOnFlag": false,
   "terminalProgressBarEnabled": false,
   "skipDangerousModePermissionPrompt": true,
+  "enabledPlugins": {
+    "rust-analyzer-lsp@claude-plugins-official": true
+  },
   "permissions": {
     "defaultMode": "bypassPermissions"
   },
