@@ -7,14 +7,5 @@
   "hideThinkingBlock": true,
   "collapseChangelog": true,
   "quietStartup": false,
-  "fullscreenCopyOnSelect": true,
-  "providers": {
-    "openrouter": {
-      "modelOverrides": {
-        "moonshotai/kimi-k3.1-pro": {
-          "maxTokens": 262144
-        }
-      }
-    }
-  }
+  "fullscreenCopyOnSelect": true
 }

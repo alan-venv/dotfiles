@@ -1,0 +1,14 @@
+{
+  "$schema": "https://pi.dev/schemas/models.schema.json",
+  "providers": {
+    "openai": {
+      "modelOverrides": {
+        "gpt-6.2-sol": {
+          "samplingParams": {
+            "service_tier": "priority"
+          }
+        }
+      }
+    }
+  }
+}
